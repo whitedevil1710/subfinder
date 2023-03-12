@@ -17,7 +17,7 @@ The script takes the following arguments:
 - -a, --auth - Optional. The HTTP authentication credentials to use for HTTP requests (format: USERNAME PASSWORD)
 # **Installation**
 ```
-git clone
+git clone https://github.com/whitedevil1710/subfinder.git
 pip3 install -r requirements.txt
 cd subfinder
 ```
