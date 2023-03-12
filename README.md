@@ -4,7 +4,7 @@ This is a Python script for finding subdirectories on a website. It takes a list
 
 # **Usage**
 ```python
-python subdirectory_finder.py <url> <subdomains_file> [-h] [-e EXTENSIONS [EXTENSIONS ...]][-d DEPTH] [-u USER_AGENT] [-p PROXY] [-a USERNAME PASSWORD] 
+python3 subdirectory_finder.py <url> <subdomains_file> [-h] [-e EXTENSIONS [EXTENSIONS ...]][-d DEPTH] [-u USER_AGENT] [-p PROXY] [-a USERNAME PASSWORD] 
 ```
 The script takes the following arguments:
 
@@ -20,8 +20,9 @@ The script takes the following arguments:
 git clone https://github.com/whitedevil1710/subfinder.git
 pip3 install -r requirements.txt
 cd subfinder
+
 ```
 # **Examples**
 ```python
-python subdirectory_finder.py https://example.com subdomains.txt -e php -d 5 -u Mozilla/5.0 -p http://127.0.0.1:8080 -a admin password
+python3 subdirectory_finder.py https://example.com subdomains.txt -e php -d 5 -u Mozilla/5.0 -p http://127.0.0.1:8080 -a admin password
 ```
