@@ -20,7 +20,7 @@ The script takes the following arguments:
 git clone https://github.com/whitedevil1710/subfinder.git
 pip3 install -r requirements.txt
 cd subfinder
-
+python3 subdirectory_finder.py -h
 ```
 # **Examples**
 ```python
